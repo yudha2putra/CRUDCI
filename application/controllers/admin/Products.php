@@ -26,6 +26,7 @@ class Products extends CI_Controller
     if ($validation->run()) {
         $product->save();
         $this->session->set_flashdata('success', 'Berhasil disimpan');
+        redirect('admin/products/');
     }
 
     $this->load->view("admin/product/new_form");
@@ -50,7 +51,7 @@ class Products extends CI_Controller
       $this->load->view("admin/product/edit_form", $data);
   }
 
-  function update(){
+  public function update(){
   	$product_id = $this->input->post('id');
   	$name = $this->input->post('name');
   	$price = $this->input->post('price');

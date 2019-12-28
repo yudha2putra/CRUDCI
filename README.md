@@ -3,13 +3,13 @@
 This application is CRUD using CodeIgniter Backend and Bootstrap. This application can create product, read product, update product, and delete product.
 
 ### Index Page
-![Alt text](img.PNG?raw=true "Title")
+![Alt text](/application/views/img/img.PNG?raw=true "Title")
 
 ### Insert Page
-![Alt text](img2.PNG?raw=true "Title")
+![Alt text](/application/views/img/img2.PNG?raw=true "Title")
 
 ### Edit Page
-![Alt text](img3.PNG?raw=true "Title")
+![Alt text](/application/views/img/img3.PNG?raw=true "Title")
 
 ## Getting Started
 
